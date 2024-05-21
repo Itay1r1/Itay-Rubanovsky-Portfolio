@@ -1,35 +1,31 @@
-This Portfolio contains 2 of my recent projects.
+# Portfolio
 
-# Project 1
+This portfolio contains 2 of my recent projects.
 
-## Description
-A STD file with written test cases for functional and unfunctionl tests of ReFormat application, version 7.9.
-All the work were made on an Agile testing methodology, with 2 of my teammates.
+## Project 1: ReFormat Application Testing
 
-## Features
-STD file
+### Description
+This project includes a STD file with written test cases for functional and non-functional tests of the ReFormat application, version 7.9. The work was conducted using Agile testing methodology in collaboration with 2 of my teammates.
 
-## Instruction
-The file is .xlsx type, for a proper view - please open with Microsoft Excel.
+### Features
+- STD file
 
-# Project 2
+### Instructions
+The file is in .xlsx format. For proper viewing, please open it with Microsoft Excel.
 
-## Description
-In this porject I was testing 2 versions (1.0, 1.1) of RDC system - Retail Discount Calculator application.
-The project contains a self made STD, STP and STR files.
-Several testing methods were used in order to fully test the system.
-All the work were made on an Agile testing methodology, with 2 of my teammates.
+## Project 2: Retail Discount Calculator (RDC) System Testing
 
-## Features
-STD file
-STP file
-STR file
+### Description
+In this project, I tested two versions (1.0 and 1.1) of the Retail Discount Calculator (RDC) application. The project includes self-made STD, STP, and STR files. Several testing methods were employed to fully test the system. The work was conducted using Agile testing methodology in collaboration with 2 of my teammates.
 
-## Instruction
-The STD file is from the .xlsx type, for a proper view - please open with Microsoft Excel.
-The STP and STR files are from the .docx type, for a proper view - please open with Microsoft Word.
+### Features
+- STD file
+- STP file
+- STR file
 
-# License
-The following projects are protected by copyright. All rights reserved.
-Unauthorized use, reproduction, modification, distribution, or republication of any part of this project is strictly prohibited without the express written permission of the copyright owner.
-For permissions or inquiries, please contact Itayrubanovsky@gmail.com
+### Instructions
+- The STD file is in .xlsx format. For proper viewing, please open it with Microsoft Excel.
+- The STP and STR files are in .docx format. For proper viewing, please open them with Microsoft Word.
+
+## License
+These projects are protected by copyright. All rights reserved. Unauthorized use, reproduction, modification, distribution, or republication of any part of these projects is strictly prohibited without the express written permission of the copyright owner. For permissions or inquiries, please contact [Itayrubanovsky@gmail.com](mailto:Itayrubanovsky@gmail.com).
