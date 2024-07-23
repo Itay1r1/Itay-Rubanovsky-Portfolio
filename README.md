@@ -45,7 +45,7 @@ The project includes self-made STD and STR files. Several testing methods were e
 ## Project 4: QA Automation Web Testing
 
 ### Description
-In this project, I tested a self-made website that is running on a live server. The website was created with HTML, CSS, and JavaScript. The testing was written in Python and executed with Selenium Automation.
+In this project, I tested a self-made website that is running on a live server. The website was created with HTML, CSS, and JavaScript. The testing was written in Python and executed using Selenium with Automation.
 The project includes self-made HTML files, a CSS file, and a Python file.
 
 The tests are:
