@@ -1,6 +1,6 @@
 # Portfolio
 
-This portfolio contains 2 of my recent projects.
+This portfolio contains 4 of my QA projects.
 
 ## Project 1: ReFormat Application Testing
 
