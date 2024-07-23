@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" href="CSS_Project.css" rel="stylesheet" />
+    <title>Automation Project</title>
+  </head>
+  <body>
+    <hr />
+    <hr />
+    <table border="1">
+      <tr>
+        <td>Washington</td>
+        <td>Sun F</td>
+        <td>NY</td>
+      </tr>
+      <tr>
+        <td>Manchester</td>
+        <td>London</td>
+        <td>Paris</td>
+      </tr>
+      <tr>
+        <td>Jerusalem</td>
+        <td>Tel Aviv</td>
+        <td>Bat Yam</td>
+      </tr>
+    </table>
+
+    <hr />
+    <hr />
+    <h1 id="SD">Student Details</h1>
+    <h1 id="SG">Student Grades</h1>
+    <h1 id="SJ">Student Jobs</h1>
+
+    <form action="mailto:li@gmail.com" method="get" enctype="text/plain">
+      <fieldset>
+        <legend>Personal Information</legend>
+        First Name:
+        <input
+          type="text"
+          placeholder="Type first name"
+          name="fname"
+          size="40"
+          required
+        />
+        Last Name:
+        <input
+          type="text"
+          name="lname"
+          placeholder="Type Last name"
+          size="40"
+          required
+        />
+        <br />
+        City:
+        <select name="City">
+          <option name="TA" value="TA">Tel Aviv</option>
+          <option id="JE" name="op2" value="JER">Jerusalem</option>
+          <option name="HF" value="HF" selected="selected">Hiffa</option>
+          <option value="BS">Beer Sheva</option>
+        </select>
+        Email: <input type="email" id="email" name="email" size="40" />
+        Mobile:
+        <select name="areaCode">
+          <option value="50" selected="selected">050</option>
+          <option value="52">052</option>
+          <option value="53">053</option>
+          <option value="54">054</option>
+        </select>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" />
+        <br />
+        <table>
+          <tr>
+            <td><input id="f" type="radio" name="gender" value="F" />Female</td>
+            <td><input id="m" type="radio" name="gender" value="M" />Male</td>
+            <td><input id="o" type="radio" name="gender" value="O" />Other</td>
+          </tr>
+          <tr></tr>
+        </table>
+        <input id="p" type="checkbox" name="pyhs" value="P" />Physics
+        <input id="m" type="checkbox" name="math" value="M" />Math
+        <input id="b" type="checkbox" name="bio" value="B" />Biology
+        <input id="c" type="checkbox" name="chem" value="C" />Chemistry
+        <input id="e" type="checkbox" name="eng" value="E" />English
+        <br /><br /><br /><br />
+        <fieldset>
+          <legend>HTML Buttons</legend>
+          <br />
+          <input type="button" value="OK" />
+          <input id="CB" type="reset" value="Clear" />
+          <input id="send" type="submit" value="Send" />
+          <br /><br />
+        </fieldset>
+      </fieldset>
+    </form>
+
+    <fieldset>
+      <legend>JS Buttons</legend>
+      <br />
+      <label>Click on Set Text button, and insert your paragraph content</label>
+      <fieldset>
+        <p id="pbyuser"></p>
+      </fieldset>
+      <button onClick="SetText();">Set Text</button>
+      <br />
+      <h3>A demonstration of how to access a PROGRESS element</h3>
+      Downloading progress:
+      <p id="startLoad">Click on Start Loading</p>
+      <button onClick="setTimeout(myTimeout1, 5000);">Start loading</button>
+      <br />
+    </fieldset>
+
+    <fieldset>
+      <legend id="links">Links</legend>
+      <a name="nextPage" href="nextpage.html">Next Page</a>
+      <br />
+      <a name="myLink" href="https://www.windy.com/">Windy</a>
+      <br />
+      <a name="myLinkTS" href="http://www.seakayak.co.il//">Tera Santa</a>
+      <br />
+      <a name="notMyLink" href="http://javabook.co.il/wordpress/?page_id=10"
+        >Java Book</a
+      >
+      <br />
+      <a name="notMyLink" href="https://www.youtube.com/">YouTube</a>
+      <br />
+    </fieldset>
+
+    <script>
+      var strColor = "Blue";
+      var strText = "First";
+      debug("Hello");
+      function debug(strToLog) {
+        console.log(strToLog);
+      }
+      function SetText() {
+        var strParText = window.prompt("Insert test", strParText);
+        document.getElementById("pbyuser").innerHTML = strParText;
+      }
+      function SetColor() {
+        strColor = window.prompt("Insert color", strColor);
+        var ep = document.getElementById("p1");
+        var eh = document.getElementById("h1");
+        ep.style.color = strColor;
+        console.dir(ep);
+        console.dir(eh);
+      }
+      function myTimeout1() {
+        document.getElementById("startLoad").innerHTML = "Finish";
+      }
+    </script>
+  </body>
+</html>
